@@ -2,7 +2,7 @@
 
 This workshop is kept purposefully small, but it will still require some work, but no coding...
 
-I have provided you with a working todo list app.
+I have provided you with a working to do list app.
 
 ## Setup
 
