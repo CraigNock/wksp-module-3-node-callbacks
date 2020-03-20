@@ -16,7 +16,8 @@ const handle404 = (req, res) => {
     
     // respond with html page
     if (req.accepts('html')) {
-        res.render('pages/fourOhFour', { path: req.originalUrl });
+        res.render('pages/fourOhFour', { 
+            path: req.originalUrl });
         return;
     }
     

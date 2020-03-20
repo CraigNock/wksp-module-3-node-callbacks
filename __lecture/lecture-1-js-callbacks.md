@@ -62,7 +62,9 @@ console.log('do second thing');
 console.log('do third thing');
 
 // expected output
-
+1
+2
+3
 ```
 
 _What is expected here?_
@@ -79,6 +81,11 @@ setTimeout(function() {
     console.log('do second thing');
 }, 2000);
 console.log('do third thing');
+
+//
+1
+3
+2
 ```
 
 ---
@@ -123,6 +130,7 @@ Have we used callbacks in any of our code to date?
 
 _Examples?_
 
+intervals, timeouts, methods!(forEach etc)
 ---
 
 ## Callback Hell... or the Pyramid of Doom.
@@ -134,6 +142,8 @@ function tellWorld(message, callback) {
     console.log(message);
     callback();
 };
+
+
 ```
 
 ---
